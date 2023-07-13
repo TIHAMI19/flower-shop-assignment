@@ -13,6 +13,9 @@ body{
     border: 0;
     
 }
+span{
+    color: #E55473;
+}
 /* header related styles */
 
     
@@ -40,7 +43,8 @@ body{
 .header-image{
     display: flex;
     align-items: end;
-    margin-right: 240px;
+    margin-right: ;
+    padding-right: 0;
 }
 .image{
     width: 635px;
@@ -225,4 +229,34 @@ body{
     padding: 22px  ;
 
     border: none;
+}
+/* footer related styles */
+.footer{
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background-color:#111010 ;
+}
+.footer-title{
+    color: #FFF;    
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 24px;
+    
+}
+.footer-description{
+    color: #FFFFFF;
+    text-align: center;    
+    font-size: 18px;   
+    font-weight: 400;
+   
+}
+.copyright{color: rgba(255, 255, 255, 0.40);
+    text-align: center;    
+    font-size: 16px;   
+    font-weight: 400;
+    
+
 }
