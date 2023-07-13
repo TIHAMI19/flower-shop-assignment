@@ -174,3 +174,55 @@ body{
 .discount-section-image{
     margin-top:100px ;
 }
+/* instagram section related styles */
+.instagram-pictures{
+    display: flex;
+    margin-left: 240px;
+    margin-right: 240px;    
+    gap: 24px;
+    margin-bottom: 128px;
+}
+/* last section related styles */
+.l-section{
+    margin-left: 240px;
+    margin-right: 240px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png') ;
+    background-repeat: no-repeat;
+    margin-bottom: 128px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+.email{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 110px;
+    margin-left: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-border: none;
+
+  
+
+}
+#s-button{
+    
+    margin-right:250px ;
+}
+#s-title{
+    padding-top: 122px;
+}
+.email input {
+    display: block;
+    padding: 22px  ;
+
+    border: none;
+}
