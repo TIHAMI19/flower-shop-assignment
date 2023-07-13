@@ -71,9 +71,9 @@ body{
 
 }  
 .flowers{
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     align-items: end;
+    gap: 24px;
     
 }  
 .first-flower{
@@ -115,4 +115,46 @@ body{
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 30px;
+}
+/* shop description related styles */
+.shop-description{
+    display: flex;
+    margin-top: 128px;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-bottom: 128px;
+}
+.first-icon-image{
+    padding-left: 270px;
+    padding-top: 86px;
+}
+.second-icon-image{
+    padding-left: 300px;
+    padding-right: 271px;
+    padding-top: 86px;
+}
+.third-icon-image{
+    padding-top: 86px;
+}
+.icon-description{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 87px;
+    
+}
+#first-icon-description{
+    padding-left: 175px;
+}
+#third-icon-description{
+    padding-right: 230px;
 }
