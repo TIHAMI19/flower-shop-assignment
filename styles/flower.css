@@ -1,0 +1,118 @@
+/* shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 43px;
+    margin-top:32px ;
+    margin-bottom:150px ;
+    border: 0;
+    
+}
+/* header related styles */
+
+    
+    
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding:50px 240px 0 240px ;
+    display: flex;
+    
+
+}
+.banner-title{
+    color: #272727;    
+    font-size: 80px;   
+    font-weight: 800;
+    margin-top:197px ;    
+}
+.banner-description{
+    color:#272727;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+
+}
+.header-image{
+    display: flex;
+    align-items: end;
+    margin-right: 240px;
+}
+.image{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+    
+
+}
+/* featured flowers styles */
+.featured-flowers{
+    margin-left: 240px;
+    margin-right: 240px;
+    
+}
+.section-title{ 
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 180px;
+    }
+.section-description{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}  
+.flowers{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}  
+.first-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+.first-flower-image{
+    padding: 110px 78px 0 76px ;
+}
+.second-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+
+}
+.second-flower-image{
+    padding: 117px 50px 50px 50px;
+
+}
+.third-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+.third-flower-image{
+    padding: 70px 75px 0 75px;
+}
+.flower-name{
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
